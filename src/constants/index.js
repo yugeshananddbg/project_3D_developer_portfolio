@@ -23,16 +23,15 @@ import {
   jobit,
   tripguide,
   threejs,
+  xd,
+  ps,
+  ai
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
   },
   {
     id: "contact",
@@ -42,15 +41,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Graphic Designer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Animation Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "UI/UX developer",
     icon: backend,
   },
   {
@@ -69,49 +68,37 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
     name: "figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Adobe xd",
+    icon: xd,
   },
+  {
+    name: "Adobe photoshop",
+    icon: ps,
+  },
+
+  {
+    name: "Adobe Illustrator",
+    icon: ai,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+ 
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+ 
 ];
 
 const experiences = [
@@ -172,26 +159,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a potrait as beautiful as our product, but Pratham proved me wrong.",
+    name: "Yugesh Anand",
+    designation: "CEO",
+    company: "Ekant ",
+    image: "https://avatars.githubusercontent.com/u/89369654?v=4",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a designer who truly cares about their clients' success like Pratham does.",
+    name: "Ashwani Anand",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://www.facebook.com/photo/?fbid=2075004419396979&set=a.1379987475565347&__tn__=%3C",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Paratam helps me lot for creating and  increasing my youtube chanel growth",
+    name: "Ambuj kumar ",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Vigyan Jyotish",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];

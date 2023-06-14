@@ -30,8 +30,20 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+
+import xd from "./tech/xd.png"
+import ps from "./tech/ps.png"
+import ai from "./tech/ai.png"
+import email from "./email.png"
+import youtube from "./youtube.png"
+
+
 export {
+  xd,
+  ps,
+  ai,
   logo,
+  html,
   backend,
   creator,
   mobile,
@@ -43,7 +55,6 @@ export {
   docker,
   figma,
   git,
-  html,
   javascript,
   mongodb,
   nodejs,
@@ -59,4 +70,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  email,
+  youtube
 };

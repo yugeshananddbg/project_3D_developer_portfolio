@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { youtube } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -47,12 +48,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a freelance graphic designer and motion graphics artist.I have served more than 50 customers to design their daily social media posts. I plan to fully focus on my full-time job to improve my design skills and provide values to my future company.
+    
       </motion.p>
+      <a href="https://www.youtube.com/channel/UCPsuW7J_MzuM7ia7s4ZsVEQ" target="_blank">
+        <div className="container mx-auto cursor-pointer" >
+         <img src={youtube} className="w-20 "/>
+        </div>
+        </a>
+
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
